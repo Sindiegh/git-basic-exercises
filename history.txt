@@ -1,0 +1,328 @@
+    1  sudo snap install --classic code # or code-insiders
+    2  nano [option]/path/to/filename
+    3  ls
+    4  pwd
+    5  mkdir workspace 
+    6  ls
+    7  cd workspace
+    8  ls
+    9  touch README.md
+   10  ls
+   11  touch README.md cp CHANGELOG.md
+   12  ls
+   13  touch umuzi.md
+   14  touch recruits.md
+   15  touch cohort.md
+   16  ls
+   17  vim umuzi.md
+   18  vim umuzi
+   19  nano umuzi
+   20  nano recruits
+   21  nano cohort
+   22  ls
+   23  cat umuzi.md recruits.md cohort.md >Concatenated.md
+   24  cat Concatenated.md
+   25  nano Concatenated
+   26  vim umuzi.md
+   27  nano cohort
+   28  rm -rf umuzi.md
+   29  ls
+   30  touch exercise.md
+   31  mv exercise.md /tmp
+   32  cd /tmp
+   33  ls
+   34  cd ../
+   35  rm -rf /tmp/exercise.md
+   36  cd /tmp
+   37  ls
+   38  touch umuzi.md
+   39  touch recruits.md
+   40  rm -rf umuzi.md
+   41  rm -rf recruits.md
+   42  ls
+   43  cd ../
+   44  ls
+   45  touch umuzi.md
+   46  cd /tmp
+   47  rm -rf umuzi
+   48  rm -rf cohort
+   49  rm -rf recruits
+   50  rm -rf 
+   51  rm -rf cohort.md
+   52  rm -rf umuzi.md
+   53  ls
+   54  touch umuzi.md
+   55  touch cohort.md
+   56  touch recruits.md
+   57  tee umuzi.md
+   58  tee cohort.md
+   59  tee recruits.md
+   60  cat umuzi.md cohort.md recruits.md >All.md
+   61  cat All.md
+   62  cat umuzi.md cohort.md recruits.md > All.md
+   63  cat All.md
+   64  tee cohort.md
+   65  tee recruits.md
+   66  cat umuzi.md cohort.md recruits.md >All.md
+   67  cat All.md
+   68  cat umuzi.md cohort.md recruits.md 
+   69  ls
+   70  echo"The end" >summary.md
+   71  echo"The end" > summary.md
+   72  echo "The end" > summary.md
+   73  ls
+   74  cat summary.md
+   75  echo "The end" > All.md
+   76  cat All.md
+   77  touch feli.md
+   78  touch sindi.md
+   79  touch monicah.md
+   80  echo "hi" > feli.md
+   81  echo "this actually" > sindi.md
+   82  echo "works" > monicah.md
+   83  cat feli.md sindi.md monicah.md > shisa.md
+   84  cat shisa.md
+   85  echo "it does" > shisa.md
+   86  cat shisa.md
+   87  echo "it does2" >> shisa.md
+   88  cat shisa.md
+   89  rm shisa.md
+   90  rm feli.md
+   91  rm monicah.md
+   92  rm sindi.md
+   93  echo "The end" >> All.md
+   94  cat All.md
+   95  locate umuzi.md
+   96  ls
+   97  locate umuzi
+   98  locate umuzi.md
+   99  locate -b umuzi.md
+  100  locate -b\ umuzi.md
+  101  locate -b '\ umuzi.md'
+  102  locate -b '\umuzi.md'
+  103  locate -b '\Documents'
+  104  ls
+  105  locate -b '\recruits.md'
+  106  ls
+  107  rm -rf All.md
+  108  rm -rf cohort.md
+  109  rm -rf Concatenated.md
+  110  rm -rf umuzi.md
+  111  rm -rf recruits.md
+  112  rm -rf summary.md
+  113  rm -rf cohort.md
+  114  ls
+  115  pwd
+  116  mkdir workspace
+  117  rm -rf workspace
+  118  mkdir workspace
+  119  ls
+  120  cd workspace
+  121  ls
+  122  touch README.md
+  123  cp README.md CHANGeLOG.md
+  124  ls
+  125  touch exercise.md
+  126  mv exercise.md /tmp
+  127  cd /tmp
+  128  ls
+  129  cd ../
+  130  rm -rf /tmp/exercise.md
+  131  cd /tmp
+  132  ls
+  133  touch umuzi.md
+  134  touch recruits.md
+  135  touch cohort.md
+  136  ls
+  137  rm -rf umuzi.md
+  138  rm -rf recruits.md
+  139  rm -rf cohort.md
+  140  cd ../
+  141  touch umuzi.md
+  142  locate umuzi.md
+  143  locate Desktop
+  144  locate umuzi
+  145  cd ../
+  146  locate umuzi
+  147  reset
+  148  ls
+  149  find *.pdf
+  150  locate *.pdf
+  151  locate '*.pdf'
+  152  find ~ *.pdf
+  153  find '*.pdf'
+  154  find *.pdf
+  155  locate *.pdf
+  156  find ~*.pdf
+  157  find *.pdf ~/Documente
+  158  find *.pdf ~/Document
+  159  find ~ *.pdf ~/Document
+  160  lo
+  161  locate *.pdf ~/Documents
+  162  cd Documents
+  163  locate *.pdf
+  164  cd -o
+  165  locate -daystart -ctime 0 -print
+  166  find -daystart -ctime 0 -print
+  167  nano my_bio.md
+  168  mv my_bio.md~/my_files
+  169  mv my_bio.md ~/my_files
+  170  ls
+  171  pwd
+  172  git add, git status, git commit -m "", git psh origin masterclear
+  173  clear
+  174  pwd
+  175  cd Desktop/
+  176  pwd
+  177  ls
+  178  mkdir Linux_Exercises
+  179  ls
+  180  clear
+  181  cd Linux_Exercises/
+  182  ls
+  183  git init
+  184  ls -a
+  185  ls -la
+  186  clear
+  187  touch cohort.md
+  188  touch recruits.md
+  189  ls
+  190  tee umuzi.md
+  191  tee 
+  192  tee cohort.md
+  193  tee recruits.md
+  194  cat umuzi.md cohort.md recruits.md 
+  195  cat umuzi.md cohort.md recruits.md >summary.md
+  196  cat summary
+  197  echo "The end" >> summary.md
+  198  cat summary.md
+  199  locate umuzi.md
+  200  ls
+  201  locate workspace
+  202  cd Documents
+  203  touch pad.md
+  204  ls
+  205  cd Desktop
+  206  cd ../
+  207  cd Desktop
+  208  mkdir work
+  209  ls
+  210  cp ~/Documents/pad.md pad_copy.md
+  211  ls
+  212  cp ~/Documents/pad.md pad_copy.md
+  213  \locate updatedb
+  214  cd -
+  215  locate pad_copy.md
+  216  locate umuzi.md
+  217  ls
+  218  locate summary.md
+  219  locate Videos
+  220  locate summary
+  221  locate pad_copy
+  222  cd Desktop
+  223  ls
+  224  locate pad_copy.md
+  225  locate updatedb
+  226  locate pad_copy.md
+  227  cd -
+  228  locate pad_copy.md
+  229  find pad_copy.md
+  230  find pad_cop
+  231  find pad_copy
+  232  search pad_copy.md
+  233  cd Desktop
+  234  ls
+  235  locate pad_copy
+  236  cd Documents
+  237  cp *.pdf >>Documents
+  238  sudo apt install git
+  239  git clone https://github.com/Sindiegh/Linux-Challenges.git
+  240  cd Linux-Challenges
+  241  ls
+  242  git status
+  243  git add
+  244  git add *
+  245  git status
+  246  git commit -m "Linux Challenges"
+  247  git config --global user.email "sindiswa.khama@umuzi.org"
+  248  git config --global user.name "Sindiegh"
+  249  git push
+  250  git status
+  251  git push
+  252  git push Linux_Exercises
+  253  git status
+  254  git ad .
+  255  git add .
+  256  git status
+  257  git commit -m "Linux Challenges commit"
+  258  git status
+  259  git push
+  260  mkdir git-basics-exercise
+  261  rm -rf git-basics-exercise
+  262  mkdir git-basic-exercises
+  263  cd git-basic-exercises
+  264  ls -a
+  265  git init 
+  266  ls -a
+  267  git status
+  268  touch README.md
+  269  ls -a
+  270  git status
+  271  git log
+  272  git add README.md
+  273  git status
+  274  git reset -- README
+  275  git status
+  276  git rm --cached <README>...
+  277  git rm --cached <README.md>...
+  278  git status
+  279  git commit -m "initial commit"
+  280  git log
+  281  q
+  282  git status
+  283  git rm --cached <README.md>
+  284  git rm --cached README.md
+  285  git stutas
+  286  git status
+  287  git add .
+  288  git commit -m "initial commit"
+  289  nano README.md
+  290  cat README.md
+  291  git status
+  292  git commit -m "Second commit"
+  293  cat README.md
+  294  git log
+  295  nano README.md
+  296  git status
+  297  cat README.md
+  298  git add README.md
+  299  git commit -m "Third Commit"
+  300  git log
+  301  git checkout 763f34e423c8bff6e593cc8b115c3f1153a88514
+  302  cat README.md
+  303  git checkout master
+  304  cat README.md
+  305  git branch
+  306  git branch milkshake-flavours
+  307  git branch
+  308  git checkout master
+  309  git checkout milkshake-flavours
+  310  nano milkshak.md
+  311  git status
+  312  git add milkshak.md
+  313  git commit -m "added initial flavours"
+  314  git log
+  315  sudo nano /etc/crontab
+  316  shutdown now
+  317  checkout master
+  318  git checkout master
+  319  ls
+  320  cd git-basic-exercises
+  321  git checkout master
+  322  git checkout milkshake-flavours
+  323  git branch
+  324  git checkout master
+  325  git branch history
+  326  git checkout history
+  327  git log
+  328  history > history.txt
